@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+/* Simple browser reset */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+body {
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: #ffffe0;
+  color: #fff;
+  padding: 10px 10px;
+}
+
+footer {
+  background: #222;
+  padding: 40px;
+  text-align: center;
+  color: #d8d8d8;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  margin-right: 8px;
+  transition: 0.3s ease all;
+}
+
+nav ul li a:hover {
+  background: rgb(255, 198, 245);
+}
+
+.hero__title {
+  font-size: 100px;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+.hero {
+  min-height: 800px;
+  text-align: center;
+  background-image: url("../img/volcano.jpg");
+  background-size: cover;
+}
+
+.hero__content {
+  color: white;
+  padding-top: 10px;
+}
+
+.hero__content a:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#icon img {
+  width: 40px;
+  border-radius: 3px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
